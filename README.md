@@ -31,11 +31,15 @@ uv run python em.py
 
 #### Samples
 
+Given a dataset corrupted as shown here
+
 <p align="center">
   <picture>
     <img src="assets/data.png" alt="Your image description">
   </picture>
 </p>
+
+this algorithm fits a generative model to latents, samples of which look like
 
 <p align="center">
   <picture>
