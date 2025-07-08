@@ -1,0 +1,8 @@
+figs/
+data/
+scripts/
+mnist_dit_fm.py
+mnist_dit_fm.ipynb
+*.pt
+em2.py
+em3.py

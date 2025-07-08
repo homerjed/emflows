@@ -1,0 +1,9 @@
+azula>=0.4.0
+beartype>=0.21.0
+datasets>=3.6.0
+einops>=0.8.1
+jaxtyping>=0.2.36
+matplotlib>=3.9.4
+torch>=2.7.1
+torchvision>=0.22.1
+tqdm>=4.67.1

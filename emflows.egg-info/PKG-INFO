@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: emflows
+Version: 0.0.0
+Summary: Implementation of 'Learning Diffusion Priors with Expectation Maximisation' in Pytorch & Azula.
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: azula>=0.4.0
+Requires-Dist: beartype>=0.21.0
+Requires-Dist: datasets>=3.6.0
+Requires-Dist: einops>=0.8.1
+Requires-Dist: jaxtyping>=0.2.36
+Requires-Dist: matplotlib>=3.9.4
+Requires-Dist: torch>=2.7.1
+Requires-Dist: torchvision>=0.22.1
+Requires-Dist: tqdm>=4.67.1
+
+<h1 align='center'> Expectation Maximisation Flows </h1>
+
+Implementation of the paper ['Learning Diffusion Priors from Observations by Expectation Maximization' (Rozet++24)](https://arxiv.org/abs/2405.13712) in PyTorch. 
+
+To implement:
+- [ ] Mixed precision,
+- [ ] EMA,
+- [ ] Hyperparameter/model saving,
+- [ ] Data-parallelism,
+- [ ] PPCA for $q_0(x)$, denoiser module for $q_0(x)$.
